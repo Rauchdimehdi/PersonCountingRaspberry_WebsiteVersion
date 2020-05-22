@@ -1,20 +1,8 @@
-# PersonCountingRaspberry on the Edge using AWS Greengrass
-
-+ Here is the link for the video where I do explain step by step how I did it 
-https://www.youtube.com/watch?v=bRWT_sbzGds
-
-> Hardware : 
-
-![image](https://user-images.githubusercontent.com/40724965/82109740-c195bc80-9738-11ea-94a3-19a9266b8b3c.png)
-
-+ we are using a raspberry pi 3 with greengrass core software pre-installed & a pi camera module
-
-
-
->MQTT Client 
-
-<img width="1440" alt="Screenshot 2020-05-16 at 03 31 17" src="https://user-images.githubusercontent.com/40724965/82109796-3d900480-9739-11ea-9cc6-b5977d34e955.png">
-
-+ The Lambda messages to the Cloud
-
 # PersonCountingRaspberry_WebsiteVersion
+
++ After creating a project that detect persons, I decided to make a simple website and host it on amazon s3
+<img width="1440" alt="Screenshot 2020-05-22 at 03 42 03" src="https://user-images.githubusercontent.com/40724965/82622601-8a168c80-9bde-11ea-93f7-122e816372fa.png">
+
+>When your click on Click me !! button, a fucntion will be triggered to retrieve the data from aws DynamoDb database and display it 
+
+<img width="1440" alt="Screenshot 2020-05-22 at 03 42 14" src="https://user-images.githubusercontent.com/40724965/82622587-7ec36100-9bde-11ea-9ef4-e71ca2a5e593.png">
