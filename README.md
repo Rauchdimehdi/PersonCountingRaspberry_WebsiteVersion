@@ -19,3 +19,5 @@ After creating a project that detect persons, I decided to make a simple website
 > Since we still in lockdown I can only test it on myself 
 
 <img width="1440" alt="Screenshot 2020-06-16 at 13 55 26" src="https://user-images.githubusercontent.com/40724965/84774593-57459580-afde-11ea-84d9-560418994acd.png">
+
+> Here is a video where I did explain all these steps https://www.youtube.com/watch?v=Rh74_VjmqFw
