@@ -156,10 +156,12 @@ def greengrass_app():
                 nbr = len(results)
                 #print(f" Prediction result : {nbr}")
                 p = str(nbr)
-                valeur = int(nbr)
+                # valeur = int(nbr)
                 client.publish(topic=iot_topic, payload='The Number of persons detected :'+ p +'!!!')
 
-                //update Item on dynamodb
+                # update Item on dynamodb
+                # this variable contain the number of person detected
+                valeur = int(nbr)
                 response = table.update_item(
                   Key ={
                      "id":0
