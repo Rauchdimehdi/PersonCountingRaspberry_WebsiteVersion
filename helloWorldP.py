@@ -158,6 +158,8 @@ def greengrass_app():
                 p = str(nbr)
                 valeur = int(nbr)
                 client.publish(topic=iot_topic, payload='The Number of persons detected :'+ p +'!!!')
+
+                //update Item on dynamodb
                 response = table.update_item(
                   Key ={
                      "id":0
