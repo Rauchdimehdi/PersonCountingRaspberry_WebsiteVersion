@@ -1,8 +1,8 @@
 # PersonCountingRaspberry_WebsiteVersion
 
-#After creating a project that detect persons, I decided to make a simple website and host it on amazon s3
+After creating a project that detect persons, I decided to make a simple website and host it on amazon s3
 
-+First we need to create our Table on DynamoDb with an id & value that gonna be updated each time the raspberry detect a person
+- First we need to create our Table on DynamoDb with an id & value that gonna be updated each time the raspberry detect a person
 
 >DynamoDb Table
 <img width="1440" alt="Screenshot 2020-06-16 at 13 57 02" src="https://user-images.githubusercontent.com/40724965/84774351-fb7b0c80-afdd-11ea-9e3b-596a2a4832f3.png">
