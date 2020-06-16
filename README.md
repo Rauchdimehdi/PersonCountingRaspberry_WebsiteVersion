@@ -10,6 +10,8 @@ After creating a project that detect persons, I decided to make a simple website
 - We need to update our Lambda function so it can access to DynamoDb Table
 
 <img width="1275" alt="Screenshot 2020-06-16 at 14 26 17" src="https://user-images.githubusercontent.com/40724965/84774375-059d0b00-afde-11ea-82e7-f2365d30d9c4.png">
+- Create a website, upload it to s3 bucket and change the properties to Static Website Hosting 
+<img width="1440" alt="Screenshot 2020-06-16 at 21 52 55" src="https://user-images.githubusercontent.com/40724965/84822668-5a13ab00-b01d-11ea-8137-0ee33a02e3e9.png">
 
 +As a result we get a simple website like this 
 > Our website refreach itself every 2 seconds using setTimeout() HTML function
